@@ -39,4 +39,4 @@ The `find_missing_keys(frame, gray_frame, keyboard_type)` function takes the fra
 
 See sample output here 👇:
 
-![Output](demo.mp4)
+![Output](https://github.com/sladersh/Keyboard-Inspection-Project/blob/main/demo.mp4)
