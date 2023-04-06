@@ -34,9 +34,3 @@ The `find_contours(frame)` function converts the video feed to grayscale and cre
 The `find_dimension(frame)` function detects the aruco marker and draws a square box around the aruco marker. It then finds the perimeter of the aruco marker, which is used to find the pixel to cm ratio of the aruco. It then gets contours from the video feed and draws objects boundaries with minAreaRect function. It calculates the object width and height in pixel to cm ratio and converts it to mm. If the object's height or width is greater than 42mm, it marks the center of the object and draws a rectangular box around it. It then displays the object's width, height, and angle of rotation.
 
 The `find_missing_keys(frame, gray_frame, keyboard_type)` function takes the frame, gray_frame, and keyboard_type as input parameters. It loads the template image based on the keyboard type and converts it to grayscale. It then finds the width and height of the template image and performs template matching. It uses a threshold value to filter out weak matches and draws a rectangle around the object in the frame.
-
-### Output
-
-See sample output here 👇:
-
-![Output](https://github.com/sladersh/Keyboard-Inspection-Project/blob/main/demo.mp4)
